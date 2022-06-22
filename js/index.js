@@ -81,7 +81,7 @@ function onGameRound() {
     var count = 0;
     var x = setInterval(function () {
         var element = randomNumbers[count];
-        $("#"+element).fadeOut(50).fadeIn(50).fadeOut(50).fadeIn(50);
+        $("#"+element).fadeOut(30).fadeIn(30).fadeOut(30).fadeIn(30);
         if(count == randomNumbers.length){
             count = 0;
             clearInterval(x)
